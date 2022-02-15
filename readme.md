@@ -3,15 +3,11 @@
 This repository contains the codes for reproducing the dlra package. This is a dedicated one-sparse version.
 
 It can be easily installed by running from this repository
-pip install . -r requirements.txt
+pip install -e .
 
-A particular requirement is mscode package available [here(todo)](todo).
+This package refreshes the proposed algorithms for one-sparse DLRA from [this paper](https://arxiv.org/abs/1704.00541). It contains in dlraos/algorithms.py all the dictionary-based low-rank approximation heuristics developed in this reference.
 
-The web documentation for the package is available under doc/build/html/index.html
-
-This package refreshes the proposed algorithms for one-sparse DLRA from [this papertodo](https://arxiv.org/abs/2111.12399). It contains in dlra/algorithms.py all the dictionary-based low-rank approximation heuristics developed in this reference.
-
-The old codes are in matlab and can be found [heretodo](todo). The general k-sparse package can be found [heretodo](todo).
+The old codes are in matlab and can be found [here](https://github.com/cohenjer/Tensor_codes/tree/master/Dictionary-based_decomposition/DCPD/DCPD_codes). The general k-sparse package can be found [here](https://github.com/cohenjer/dlra).
 
 Please cite the above mentioned publication if you use this package.
 
